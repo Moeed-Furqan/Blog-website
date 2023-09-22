@@ -5,7 +5,7 @@
 
    <% Post.forEach( (post)=>{ %>
     <h1><%= post.title %></h1>
-    <p><%= post.content.substring(0,100) + "..." %><a href="/post/<%= post.title %>">Read more</a></p>
+    <p><%= post.content.substring(0,100) + "..." %><a href="/post/<%= post._id %>">Read more</a></p>
     
      <% }) %>
 
